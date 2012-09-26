@@ -1,0 +1,41 @@
+{
+    "fileTypes": [
+        "sml", "cm", "sig"
+    ], 
+    "name": "SML", 
+    "patterns": [
+        {
+            "comment": "SML keywords", 
+            "match": "\\b(open|if|functor|then|local|else|andalso|orelse|true|false|and|raise|handle|structure|struct|signature|sig|fun|let|val|in|end|case|print|of|fn|type|datatype|option|int|unit|word|real|char|string|substring|exn|array|vector|ref|bool|NONE|SOME|nil|list|LESS|EQUAL|GREATER|exception)\\b", 
+            "name": "keyword.source.sml"
+        }, 
+        {
+            "comment": "Numeric constants", 
+            "match": "\\b[0-9]+\\b", 
+            "name": "constant.numeric.sml"
+        }, 
+        {
+            "comment": "Built in types", 
+            "match": "\\b[A-Z]([A-z0-9]*)\\b", 
+            "name": "support.type.sml"
+        }, 
+        {
+            "comment": "String constant", 
+            "match": "\"(\\\\\"|[^\"])*\"", 
+            "name": "string.sml"
+        }, 
+        {
+            "begin": "\\(\\*", 
+            "comment": "Comment", 
+            "end": "\\*\\)", 
+            "name": "comment.sml"
+        }, 
+        {
+            "comment": "Character", 
+            "match": "(\\(\\)|=>|::|\\[\\]|->|:>)", 
+            "name": "constant.character.sml"
+        }
+    ], 
+    "scopeName": "source.sml", 
+    "uuid": "c75fce86-de5e-40f0-b42e-1504c17b784a"
+}
