@@ -19,9 +19,9 @@ those files as this package has been moved into its own folder.
 
 #Structure:
 
-- top level
+- (top)
     - SML: Main package folder
-    - Son of Obsidian: Example them
+    - Son of Obsidian: Example theme
 
 #Development:
 
