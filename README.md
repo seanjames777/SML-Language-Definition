@@ -14,6 +14,9 @@ A set of Sublime Text 2 resources for SML (Standard ML).
 To use the main package, copy the "SML" folder into your "Packages" directory. Use 
 the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
 
+To use the theme, copy it into either the "SML" package, or the "User" package. It 
+will then be available under Preferences>Color Scheme menu.
+
 If you had previously installed this package into your "Packages/User", remove 
 those files as this package has been moved into its own folder.
 
