@@ -1,4 +1,4 @@
-SML-Language-Definition
+SML Tools
 =======================
 
 A set of Sublime Text 2 resources for SML (Standard ML). 
@@ -14,14 +14,19 @@ those files as this package has been moved into its own folder.**
 
 #Installation:
 
-The best way to install would be to clone the git repository directly inside your
+**Pending: ** The best way to install would be to install the "Package Control" 
+package and search for "SML Tools". Package control will automatically update 
+your copy of SML tools when you start Sublime.
+
+Another good way would be to clone the git repository directly inside your
 Sublime "Packages" directory. This way, you'll be able to "git pull" to update 
-the package, and Sublime will see the changes immediately.
+the package, and Sublime will see the changes immediately. If you have Package 
+Control installed, it might update your repository for you.
+
+Use the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
 
 Otherwise, clone elsewhere and copy the files into a folder called "SML" in the Packages 
 directory.
-
-Use the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
 
 The example theme will be available under Preferences>Color Scheme menu.
 
@@ -30,6 +35,10 @@ can also directly use a snippet by typing the name and pressing tab. For example
 type 'let' and then press tab to insert a let block.
 
 #Development:
+
+If you intend to edit the package and have installed it via Package Control, you 
+should consider switching to option two above (clone the git repo) to avoid having 
+your changes overwritten. You may need to uninstall the package in package control.
 
 The .JSON-* files can be used to generate the .tm* files. You may need the "AAAPackageDev"
 package for the JSON build to work.
