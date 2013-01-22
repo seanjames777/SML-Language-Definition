@@ -8,22 +8,23 @@ those files as this package has been moved into its own folder.**
 
 #Included:
 
-- Language definition for SML. Provides syntax highlighting in Sublime Text 2.
+- Language definition for SML. Provides syntax highlighting in Sublime Text 2 and TextMate.
 - Snippets for common SML constructions: 'let', 'case', 'fun', 'fn'
 - Example theme "Son of Obsidian" that works with the SML language definiton
 
 #Installation:
 
-**Pending: ** The best way to install would be to install the "Package Control" 
+**Pending:** The best way to install would be to install the "Package Control" 
 package and search for "SML Tools". Package control will automatically update 
-your copy of SML tools when you start Sublime.
+your copy of SML tools when you start Sublime. **The package control repository
+has not been updated yet, so this will not work yet.**
 
 Another good way would be to clone the git repository directly inside your
 Sublime "Packages" directory. This way, you'll be able to "git pull" to update 
 the package, and Sublime will see the changes immediately. If you have Package 
-Control installed, it might update your repository for you.
+Control installed, it can update your repository for you.
 
-Use the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
+You can use the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
 
 Otherwise, clone elsewhere and copy the files into a folder called "SML" in the Packages 
 directory.
