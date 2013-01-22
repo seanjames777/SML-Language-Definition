@@ -3,8 +3,8 @@ SML Tools
 
 A set of Sublime Text 2 resources for SML (Standard ML). 
 
-**If you had previously installed this package into your "Packages/User", remove 
-those files as this package has been moved into its own folder.**
+**If you had previously installed this package into your "Packages/User", you should 
+consider reinstalling as described below to get future updates.**
 
 #Included:
 
