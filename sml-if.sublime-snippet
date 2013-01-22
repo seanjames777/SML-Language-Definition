@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[if ${1:expression} then ${2:expression} else ${3:expression}]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'if/then/else' block</description>
+</snippet>

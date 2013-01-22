@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[val ${1:name} : ${2:type} = ${3:expression}]]></content>
+    <tabTrigger>val</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'val' declaration with type</description>
+</snippet>

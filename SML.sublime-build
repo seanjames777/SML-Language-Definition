@@ -1,0 +1,9 @@
+{
+    "cmd": ["sml", "$file"],
+    "selector": [ "source.sml", "source.ml", "source.sig", "source.cm" ],
+    "working_dir": "$file_path",
+
+    "osx": {
+        "path": "/opt/local/bin:/usr/bin:/opt/local/sbin:/bin:/usr/sbin:/usr/local/bin"
+    }
+}

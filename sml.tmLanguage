@@ -4,6 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
+		<string>ml</string>
 		<string>sml</string>
 		<string>cm</string>
 		<string>sig</string>

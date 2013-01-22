@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[functor ${1:name} (${2:argument}) = 
+struct
+    ${3:(* Body *)}
+end
+]]></content>
+    <tabTrigger>functor</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'functor' declaration</description>
+</snippet>

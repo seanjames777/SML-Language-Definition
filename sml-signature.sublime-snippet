@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[signature ${1:name} = 
+sig
+    ${2:(* Body *)}
+end
+]]></content>
+    <tabTrigger>signature</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'signature' declaration</description>
+</snippet>

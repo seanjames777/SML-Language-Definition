@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[structure ${1:name} = 
+struct
+    ${2:(* Body *)}
+end
+]]></content>
+    <tabTrigger>structure</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'structure' declaration</description>
+</snippet>
