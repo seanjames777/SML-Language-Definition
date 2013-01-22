@@ -25,7 +25,9 @@ Use the Preferences>Browse Packages menu within Sublime to get to the Packages d
 
 The example theme will be available under Preferences>Color Scheme menu.
 
-To browse snippets, use the Tools>Snippets menu while editing a .sml file.
+To browse snippets, use the Tools>Snippets menu while editing a .sml file. You 
+can also directly use a snippet by typing the name and pressing tab. For example, 
+type 'let' and then press tab to insert a let block.
 
 #Development:
 
