@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[fun ${1:function_name} ${2:arguments} =
+	${0:body}
+]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'fun' function</description>
+</snippet>

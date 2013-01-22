@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[let
+    val ${1:name} = ${2:value}
+in
+    ${3:body}
+end
+]]></content>
+    <tabTrigger>let</tabTrigger>
+    <scope>source.sml</scope>
+    <description>SML 'let' block</description>
+</snippet>
