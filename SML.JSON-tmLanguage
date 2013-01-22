@@ -1,6 +1,8 @@
 {
     "fileTypes": [
-        "sml", "cm", "sig"
+        "sml", 
+        "cm", 
+        "sig"
     ], 
     "name": "SML", 
     "patterns": [
