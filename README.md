@@ -3,6 +3,9 @@ SML-Language-Definition
 
 A set of Sublime Text 2 resources for SML (Standard ML). 
 
+**If you had previously installed this package into your "Packages/User", remove 
+those files as this package has been moved into its own folder.**
+
 #Included:
 
 - Language definition for SML. Provides syntax highlighting in Sublime Text 2.
@@ -11,20 +14,18 @@ A set of Sublime Text 2 resources for SML (Standard ML).
 
 #Installation:
 
-To use the main package, copy the "SML" folder into your "Packages" directory. Use 
-the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
+The best way to install would be to clone the git repository directly inside your
+Sublime "Packages" directory. This way, you'll be able to "git pull" to update 
+the package, and Sublime will see the changes immediately.
 
-To use the theme, copy it into either the "SML" package, or the "User" package. It 
-will then be available under Preferences>Color Scheme menu.
+Otherwise, clone elsewhere and copy the files into a folder called "SML" in the Packages 
+directory.
 
-If you had previously installed this package into your "Packages/User", remove 
-those files as this package has been moved into its own folder.
+Use the Preferences>Browse Packages menu within Sublime to get to the Packages directory.
 
-#Structure:
+The example theme will be available under Preferences>Color Scheme menu.
 
-- (top)
-    - SML: Main package folder
-    - Son of Obsidian: Example theme
+To browse snippets, use the Tools>Snippets menu while editing a .sml file.
 
 #Development:
 
