@@ -17,18 +17,16 @@ should consider reinstalling as described below to get future updates.**
 
 #Installation:
 
-**Pending:** The best way to install would be to install the "Package Control" 
+The best way to install is to install the "Package Control" 
 package and search for "SML Tools". Package control will automatically update 
-your copy of SML tools when you start Sublime. **The package control repository
-has not been updated yet, so this will not work yet.**
+your copy of SML tools when you start Sublime.
 
 Another good way would be to clone the git repository directly inside your
 Sublime "Packages" directory. This way, you'll be able to "git pull" to update 
 the package, and Sublime will see the changes immediately. If you have Package 
-Control installed, it can update your repository for you.
-
-You can use the Preferences>Browse Packages menu within Sublime to get to the 
-Packages directory.
+Control installed, it can update your repository for you. You can use the 
+Preferences>Browse Packages menu within Sublime to get to the Packages 
+directory.
 
 Otherwise, clone elsewhere and copy the files into a folder called "SML" in the 
 Packages directory.
