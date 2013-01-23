@@ -1,4 +1,4 @@
-SML Tools
+SML
 =======================
 
 A set of Sublime Text 2 resources for SML (Standard ML). 
@@ -17,8 +17,9 @@ should consider reinstalling as described below to get future updates.**
 
 #Installation:
 
-The best way to install is to install the "Package Control" 
-package and search for "SML Tools". Package control will automatically update 
+The best way to install is to install the 
+[Package Control](http://wbond.net/sublime_packages/package_control)
+package and search for "SML". Package control will automatically update 
 your copy of SML tools when you start Sublime.
 
 Another good way would be to clone the git repository directly inside your
