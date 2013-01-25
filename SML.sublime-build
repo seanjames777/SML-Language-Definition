@@ -4,6 +4,6 @@
     "working_dir": "$file_path",
 
     "osx": {
-        "path": "/opt/local/bin:/usr/bin:/opt/local/sbin:/bin:/usr/sbin:/usr/local/bin"
+        "path": "/opt/local/bin:/usr/bin:/opt/local/sbin:/bin:/usr/sbin:/usr/local/bin:/usr/local/smlnj-110.75/bin"
     }
 }
