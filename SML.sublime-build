@@ -5,7 +5,7 @@
 
     "osx": {
         "path": "/opt/local/bin:/usr/bin:/opt/local/sbin:/bin:/usr/sbin:/usr/local/bin:/usr/local/smlnj-110.75/bin"
-    }
+    },
 
     "windows": {
         "cmd": ["sml.bat", "$file"]
