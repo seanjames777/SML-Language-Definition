@@ -4,7 +4,7 @@
     "working_dir": "$file_path",
 
     "osx": {
-        "cmd": ["$packages/SML (Standard ML)/sml_mac.sh", "$file"]
+        "cmd": ["sh", "$packages/SML (Standard ML)/sml_mac.sh", "$file"]
     },
 
     "windows": {
