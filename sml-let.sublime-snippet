@@ -2,7 +2,7 @@
     <content><![CDATA[let
     val ${1:name} = ${2:value}
 in
-    ${3:body}
+    ${3:(* body *)}
 end
 ]]></content>
     <tabTrigger>let</tabTrigger>
