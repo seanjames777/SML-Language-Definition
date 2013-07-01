@@ -1,4 +1,5 @@
 This file contains a list of people who have made significant contributions
-to the JSONParser library.
+to this project. You are encouraged to add your name to this file. Please 
+keep it sorted by year, descending, then by first name.
 
 Sean James (seanjames777@gmail.com), 2013
