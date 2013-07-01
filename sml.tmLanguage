@@ -17,7 +17,7 @@
 			<key>comment</key>
 			<string>SML keywords</string>
 			<key>match</key>
-			<string>\b(open|if|functor|then|local|else|andalso|orelse|true|false|and|raise|handle|structure|struct|signature|sig|fun|let|val|in|end|case|print|of|fn|type|datatype|option|int|unit|word|real|char|string|substring|exn|array|vector|ref|bool|NONE|SOME|nil|list|LESS|EQUAL|GREATER|exception)\b</string>
+			<string>\b(open|if|functor|then|local|else|andalso|orelse|true|false|and|raise|handle|structure|struct|signature|sig|fun|let|val|in|end|case|print|of|fn|type|datatype|option|int|unit|word|real|char|string|substring|exn|array|vector|ref|bool|NONE|SOME|nil|list|LESS|EQUAL|GREATER|exception|as|abstype|do|infix|infixr|nonfix|op|rec|with|withtype|while|eqtype|include|sharing)\b</string>
 			<key>name</key>
 			<string>keyword.source.sml</string>
 		</dict>
