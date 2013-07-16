@@ -72,6 +72,11 @@ PATH variable.
 On Windows, the build system executes the "sml.bat" file installed by the SML 
 installer. This file should be on the PATH, so should work automatically.
 
+The build system captures error output with a regular expression, so double
+clicking on an error in the output window will take you to the file and line
+on which the error occured. Alternatively, use F4 and Shift+F4 to cycle through
+errors.
+
 # Troubleshooting
 
 First, try closing all files, quitting Sublime, deleting the .cache files in the 
