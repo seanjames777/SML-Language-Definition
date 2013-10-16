@@ -11,7 +11,7 @@
     <key>decreaseIndentPattern</key>
     <string>^\s*\b(end|in)\b</string>
     <key>increaseIndentPattern</key>
-    <string>^[^%]*(\b(fun|let|in)\b(?!.*\b(end)\b.*))</string>
+    <string>^(?!\(\*).*(\b(fun|let|in)\b(?!.*\b(end)\b.*))</string>
   </dict>
   <key>uuid</key>
   <string>78cd75f7-310b-4a6a-86ac-b015cdd714a1</string>
