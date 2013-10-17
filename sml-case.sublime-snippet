@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[case ${1:expression} of
-    ${2:pattern1} => ${3:body1}
-  | ${4:pattern2} => ${5:body2}
+	${2:pattern1} => ${3:body1}
+	| ${4:pattern2} => ${5:body2}
 ]]></content>
     <tabTrigger>case</tabTrigger>
     <scope>source.sml</scope>

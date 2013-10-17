@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[signature ${1:name} = 
 sig
-    ${2:(* Body *)}
+	${2:(* Body *)}
 end
 ]]></content>
     <tabTrigger>signature</tabTrigger>

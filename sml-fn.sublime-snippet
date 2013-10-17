@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[fn ${1:arguments} => 
-    ${2:body}
+	${2:body}
 ]]></content>
     <tabTrigger>fn</tabTrigger>
     <scope>source.sml</scope>
