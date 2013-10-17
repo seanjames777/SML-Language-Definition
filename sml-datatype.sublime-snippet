@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[datatype ${1:name} = 
-    ${2:name1} of ${3:type1} 
-  | ${4:name2} of ${5:type2}]]></content>
+	${2:name1} of ${3:type1} 
+	| ${4:name2} of ${5:type2}]]></content>
     <tabTrigger>datatype</tabTrigger>
     <scope>source.sml</scope>
     <description>SML 'datatype' declaration</description>
