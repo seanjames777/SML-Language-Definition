@@ -14,12 +14,97 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.function.sml</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.sml</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.parameters.begin.sml</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.function.sml</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.parameters.end.sml</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.sml</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>match regular function like: fun myFunc (args) =</string>
+			<key>match</key>
+			<string>\b(fun|and)\s+([a-zA-Z_'$][\w']*)(\(|\s+)(.+?)(\))?\s*(=)</string>
+			<key>name</key>
+			<string>meta.function.sml</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.function.sml</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.parameters.begin.sml</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.function.sml</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.parameters.end.sml</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.operator.sml</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>match anonymous function like: fn (args) =&gt;</string>
+			<key>match</key>
+			<string>\b(fn)\s+(\()?(.*?)(\))?\s*(=&gt;)</string>
+			<key>name</key>
+			<string>meta.function.sml</string>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>SML keywords</string>
 			<key>match</key>
 			<string>\b(open|if|functor|then|local|else|andalso|orelse|true|false|and|raise|handle|structure|struct|signature|sig|fun|let|val|in|end|case|print|of|fn|type|datatype|option|int|unit|word|real|char|string|substring|exn|array|vector|ref|bool|NONE|SOME|nil|list|LESS|EQUAL|GREATER|exception|as|abstype|do|infix|infixr|nonfix|op|rec|with|withtype|while|eqtype|include|sharing|not)\b</string>
 			<key>name</key>
 			<string>keyword.source.sml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Keyword operators</string>
+			<key>match</key>
+			<string>(\+|\-|\*|\/|\bdiv\b|\bmod\b|\||!|:\=|\=|\^|&gt;\=|&lt;\=|&lt;&gt;|&gt;|&lt;|~|:)</string>
+			<key>name</key>
+			<string>keyword.operator.sml</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -36,6 +121,14 @@
 			<string>\b[A-Z]([A-z0-9]*)\b</string>
 			<key>name</key>
 			<string>support.type.sml</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Built in functions</string>
+			<key>match</key>
+			<string>\b(o|@)\b</string>
+			<key>name</key>
+			<string>support.function.sml</string>
 		</dict>
 		<dict>
 			<key>comment</key>
